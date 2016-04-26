@@ -5,7 +5,9 @@ RUN npm install
 
 COPY ./ ./
 
-RUN npm build
+RUN npm run build
 RUN npm prune --production
 
 EXPOSE 80
+
+CMD ["npm", "start"]
