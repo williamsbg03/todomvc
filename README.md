@@ -1,3 +1,5 @@
+This project is a clone of the Facebook React todo example application running on Node.js wrapped in a Docker container.
+
 # Flux TodoMVC Example
 
 > An application architecture for React utilizing a unidirectional data flow.
